@@ -48,8 +48,8 @@
     sb $t2,c
 
     # Soma os valores
-    add $t3,$t0,$t1
-    add $t3,$t3,$t2
+    add $t3,a,b
+    add $t3,$t3,c
 
     # Verifica se a soma é maior que 100
     li $t4,100
